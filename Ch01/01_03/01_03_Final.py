@@ -6,6 +6,7 @@ firstName = "Taylor"
 print(len(firstName))
 lastName = "Swift"
 print(len(lastName))
+# if the variable has the attributes, then it can be used by len()
 firstName.__len__()
 
 ages = [0, 11, 43, 12, 10]

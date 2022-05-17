@@ -2,7 +2,7 @@
 
 # round()
 myGPA = 3.6
-print(round(myGPA))
+print(round(myGPA)) # round up or down -> lose 4, plus 5
 amountOfSalt = 1.4
 print(round(amountOfSalt))
 
@@ -20,6 +20,7 @@ print(abs(lengthOfRootInGround))
 # pow()
 chanceOfTails = 0.5
 inARowTails = 3
+# First one base, second one  0.5 * 0.5 * 0.5
 print(pow(chanceOfTails, inARowTails))
 
 chanceOfOne = .167

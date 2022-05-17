@@ -8,6 +8,7 @@ print(list(numberedContestants))
 for c in list(numberedContestants):
     print("Contestant " + str(c) + " is here")
 
+# parameter: start, end, how many numbers - 5 numbers from 7 to 30
 luckyWinners = range(7, 30, 5)
 
 print(list(luckyWinners))
