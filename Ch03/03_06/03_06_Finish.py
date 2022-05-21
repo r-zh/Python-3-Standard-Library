@@ -5,6 +5,7 @@ import tempfile
 tempFile = tempfile.TemporaryFile()
 
 # Write to a temporary file
+# write only receive byte type, here b -> turn the string to byte
 tempFile.write(b"Save this special number for me: 5678309")
 tempFile.seek(0)
 
